@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proloco</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #ff4500;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 10px;
+        }
+        .btn:hover {
+            background-color: #e63900;
+        }
+        .btn-insta {
+            background-color: #e4405f;
+        }
+        .btn-insta:hover {
+            background-color: #c13584;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Proloco</h1>
+        <a href="menu.html" class="btn">Festa</a>
+        <a href="https://www.instagram.com/proloco_bagnaria?igsh=eTBzNnBkM3A1MXNj" class="btn btn-insta" target="_blank">Insta</a> 
+    </div>
+</body>
+</html>
